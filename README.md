@@ -93,13 +93,9 @@ This is my shitty app to create simple mods for Counter-Strike: Global Offensive
 
 * [MaterialSkin](https://github.com/leocb/MaterialSkin)
 * [Gameloop.Vdf](https://github.com/shravan2x/Gameloop.Vdf)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
+* [.Net Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472)
+* [FodyCostura](https://github.com/Fody/Costura)
+* [GithubUpdateCheck](https://github.com/Mayerch1/GithubUpdateCheck)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -107,32 +103,19 @@ This is my shitty app to create simple mods for Counter-Strike: Global Offensive
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Let's get started..
 
 ### Prerequisites
+You need:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* .Net Framework 4.7.2
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/miifanboy/SMC-Tool.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Download the latest release.
+2. Make sure that smctool.exe is in the correct directory containing data,addons,pak01 folders and some other files.
+3. Execute smctool.exe with admin rights **(Admin rights are needed to create a symbolic link)**
+4. You have installed successfully.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -141,10 +124,51 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+It's usage is pretty straight forward:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Simple Usage
 
+For example if you want to make deagle full auto , you can select deagle and check "is full auto" checkbox then hit apply to save the selected weapon attributes in the app.Then hit File->Save to save all weapons to a file. After that, you can click "Load Mod" button to start csgo automatically with your mod.
+
+### In-Depth Usage
+
+#### Apply Button:
+
+-This button saves the current changes in the app
+
+***Note that this doesn't save your changes to a file so if you close your app , the changes you have done will be lost. So make sure to click File->Save to save to a file**
+
+#### Load Mod:
+
+-This button reads "items_game_smcmod.txt" and creates all the neccessary files and launches csgo with your mod. You should use it after you have saved your mod via File->Save.
+
+#### Load Defaults:
+
+-This button loads the default variables for your current selected weapon.
+
+#### Vac Bypass:
+
+-It works %100. It is not a rickroll. I promise.
+
+#### File->Open:
+
+-Loads the selected file.
+
+#### File->Save:
+
+-Saves all weapons as items_game_smcmod.txt to the same directory as smctool.exe
+
+#### File->Save As:
+
+-Saves all weapons to a custom location with custom name
+
+***(If you are going to use the mod loader in this application use File->Save instead)**
+
+#### File->Export For Migi
+
+-Export your mod for Migi (You need to save it first)
+
+***(Make sure you have migi installed before using this option)**
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
