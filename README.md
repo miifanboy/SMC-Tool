@@ -28,23 +28,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/miifanboy/SMC-Tool">
+    <img src="images/smctoollogo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">SMC Tool</h3>
 
   <p align="center">
-    project_description
+    Simple Mod Creation Tool for Counter-Strike: Global Offensive
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/miifanboy/SMC-Tool"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/miifanboy/SMC-Tool">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/miifanboy/SMC-Tool/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/miifanboy/SMC-Tool/issues">Request Feature</a>
   </p>
 </div>
 
@@ -83,7 +83,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+This is my shitty app to create simple mods for Counter-Strike: Global Offensive if you want to request any new features, you can comment on feature request issue after checking if its already on to-do list.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,8 +91,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
+* [MaterialSkin](https://github.com/leocb/MaterialSkin)
+* [Gameloop.Vdf](https://github.com/shravan2x/Gameloop.Vdf)
 * [Vue.js](https://vuejs.org/)
 * [Angular](https://angular.io/)
 * [Svelte](https://svelte.dev/)
@@ -123,7 +123,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/miifanboy/SMC-Tool.git
    ```
 3. Install NPM packages
    ```sh
@@ -157,7 +157,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/miifanboy/SMC-Tool/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -193,7 +193,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@miifanboy](https://twitter.com/miifanboy) - email@email_client.com
+Mii Fanboy - [@miifanboy](https://twitter.com/miifanboy) - tba
 
 Project Link: [https://github.com/miifanboy/SMC-Tool](https://github.com/miifanboy/SMC-Tool)
 
@@ -204,10 +204,10 @@ Project Link: [https://github.com/miifanboy/SMC-Tool](https://github.com/miifanb
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
-
+* [shravan2x/Gameloop.Vdf](https://github.com/shravan2x/Gameloop.Vdf) - Vdf Parser Library
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template) - Readme Template
+* [Fody/Costura](https://github.com/Fody/Costura) - Library to include other assemblies with the executable
+* [leocb/MaterialSkin](https://github.com/leocb/MaterialSkin) - Modern UI for C# Winforms
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
