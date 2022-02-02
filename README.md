@@ -58,6 +58,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">Features</a></li>
       </ul>
     </li>
     <li>
@@ -68,7 +69,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#to-do">To Do</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -98,6 +99,13 @@ This is my shitty app to create simple mods for Counter-Strike: Global Offensive
 * [GithubUpdateCheck](https://github.com/Mayerch1/GithubUpdateCheck)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Features
+
+-Built-in mod loader
+
+-Option to export for [MIGI](https://github.com/ZooLSmith/MIGI3)
+
+-[Vac Bypass](https://www.youtube.com/watch?v=QDia3e12czc)
 
 
 <!-- GETTING STARTED -->
@@ -114,7 +122,7 @@ You need:
 
 1. Download the latest release.
 2. Make sure that smctool.exe is in the correct directory containing data,addons,pak01 folders and some other files.
-3. Execute smctool.exe with admin rights **(Admin rights are needed to create a symbolic link)**
+3. Execute smctool.exe with admin rights **(Admin rights are needed to create symbolic links between files)**
 4. You have installed successfully.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -160,26 +168,25 @@ For example if you want to make deagle full auto , you can select deagle and che
 
 #### File->Save As:
 
--Saves all weapons to a custom location with custom name
+-Saves all weapons to a custom location with a custom name
 
 ***(If you are going to use the mod loader in this application use File->Save instead)**
 
 #### File->Export For Migi
 
--Export your mod for Migi (You need to save it first)
+-Export your mod for [MIGI](https://github.com/ZooLSmith/MIGI3) (You need to save it first)
 
-***(Make sure you have migi installed before using this option)**
+***(Make sure you have [MIGI](https://github.com/ZooLSmith/MIGI3) installed before using this option)**
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- To Do -->
+## To Do
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Creating scoped weapons
+- [ ] Replacing models
+- [ ] Custom Attributes
 
 See the [open issues](https://github.com/miifanboy/SMC-Tool/issues) for a full list of proposed features (and known issues).
 
@@ -196,9 +203,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/epicfeature`)
+3. Commit your Changes (`git commit -m 'Removed rickroll'`)
+4. Push to the Branch (`git push origin feature/epicfeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -217,7 +224,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mii Fanboy - [@miifanboy](https://twitter.com/miifanboy) - tba
+Mii Fanboy - [@miifanboy](https://twitter.com/miifanboy) - Email: miifanboy@pm.me
 
 Project Link: [https://github.com/miifanboy/SMC-Tool](https://github.com/miifanboy/SMC-Tool)
 
