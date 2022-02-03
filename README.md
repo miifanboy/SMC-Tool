@@ -134,7 +134,7 @@ You need:
 2. Open the .sln file
 3. Wait for the project to fully load.
 4. Click build-> build smctool
-5. Download data.zip from releases and copy that to the same directory as smctool.exe
+5. Download data.zip from releases and extract the files to the same directory as smctool.exe
 
 <!-- USAGE EXAMPLES -->
 ## Usage
