@@ -66,6 +66,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#building-from-source">Building From Source</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -127,7 +128,13 @@ You need:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Building from Source
 
+1. Download the source code
+2. Open the .sln file
+3. Wait for the project to fully load.
+4. Click build-> build smctool
+5. Download data.zip from releases and copy that to the same directory as smctool.exe
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -137,6 +144,8 @@ It's usage is pretty straight forward:
 ### Simple Usage
 
 For example if you want to make deagle full auto , you can select deagle and check "is full auto" checkbox then hit apply to save the selected weapon attributes in the app.Then hit File->Save to save all weapons to a file. After that, you can click "Load Mod" button to start csgo automatically with your mod.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### In-Depth Usage
 
