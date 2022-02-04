@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is my shitty app to create simple mods for Counter-Strike: Global Offensive if you want to request any new features, you can comment on feature request issue after checking if its already on to-do list.
+This is my app to create simple mods for Counter-Strike: Global Offensive if you want to request any new features, you can comment on feature request issue after checking if its already on to-do list.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
