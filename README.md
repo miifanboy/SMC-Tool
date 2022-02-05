@@ -17,6 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Downloads][totaldownloads-shield]][totaldownloads-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -254,6 +255,8 @@ Project Link: [https://github.com/miifanboy/SMC-Tool](https://github.com/miifanb
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[totaldownloads-shield]: https://img.shields.io:/github/downloads/miifanboy/SMC-Tool/total?color=green&style=for-the-badge
+[totaldownloads-url]: https://github.com/miifanboy/SMC-Tool/releases/tag/v1.0.0.0
 [contributors-shield]: https://img.shields.io/github/contributors/miifanboy/SMC-Tool.svg?style=for-the-badge
 [contributors-url]: https://github.com/miifanboy/SMC-Tool/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/miifanboy/SMC-Tool.svg?style=for-the-badge
