@@ -84,7 +84,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/miifanboy/SMC-Tool)
 
 This is my app to create simple mods for Counter-Strike: Global Offensive if you want to request any new features, you can comment on feature request issue after checking if its already on to-do list.
 
